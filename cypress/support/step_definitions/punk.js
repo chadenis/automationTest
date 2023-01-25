@@ -7,7 +7,6 @@ Given('I call the punk api with beer id 192', () => {
     }).then((resp)=>{
         Cypress.env('RESPONSE', resp)
         cy.log(Cypress.env('RESPONSE'))
-        //expect(JSON.stringify(o.body[0])).to.equals(JSON.stringify(Cypress.env('PPD_policy_response')))
       })
 });
 

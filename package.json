@@ -10,6 +10,6 @@
     "cypress": "^12.3.0"
   },
   "dependencies": {
-    "cypress-cucumber-preprocessor": "^2.0.1"
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
