@@ -4,7 +4,8 @@
   "description": "Cypress Automation Framework with Cucumber",
   "main": "index.js",
   "scripts": {
-    "googleSearch": "cypress run --spec cypress/integration/googleTest.feature --headed --no-exit --browser chrome"
+    "googleSearch": "cypress run --spec cypress/integration/googleTest.feature --headed --no-exit --browser chrome",
+    "apiTest": "cypress run --spec cypress/integration/punkApiTest.feature --headed --no-exit --browser chrome"
   },
   "devDependencies": {
     "cypress": "^12.3.0"
